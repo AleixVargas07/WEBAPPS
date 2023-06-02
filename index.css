@@ -1,6 +1,7 @@
 html { 
     height: -webkit-fill-available;    /* per a dispositius mòbils */
 }
+
 body {
     display: flex;    /* tipus de display que ofereix més prestacions que block */
     flex-direction: column;    /* els elements es disposen de dalt cap abaix */
@@ -12,6 +13,7 @@ body {
     font-family: sans-serif;    /* un tipus de lletra adient per a llocs web */
     background-color: #FCDEE0;    /* color de fons en format #RRGGBB */
 }
+
 #superior {
     display: flex;
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
@@ -21,16 +23,28 @@ body {
     color: white;    /* color del text */
     background-color: #950E17;    /* color de fons */
 }
-.seccio {
-    flex: 1;    /* les seccions ocupen tot l'espai disponible */
-    display: none;    /* les seccions s'inicien ocultes, excepte la primera */
-}
+
 #seccio_1 {
     display: flex;    
     justify-content: center;    
     align-items: center;    /* contingut centrat en la direcció transversal */
     font-size: 4vmax;
 }
+
+#seccio_2 {
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    /* contingut centrat en la direcció transversal */
+    font-size: 4vmax;
+}
+
+#seccio_3 {
+    display: flex;    
+    justify-content: center;    
+    align-items: center;    /* contingut centrat en la direcció transversal */
+    font-size: 4vmax;
+}
+
 #menu {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
 }
